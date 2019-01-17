@@ -11,5 +11,7 @@
     <div class="container">
       @yield('content')
     </div>
+
+    @include('layouts._foot')
   </body>
 </html>
